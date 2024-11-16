@@ -1,0 +1,19 @@
+{
+    "name": "gabriel/php-poo",
+    "description": "estudanto php",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gabriel\\PhpPoo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gabriel FV",
+            "email": "gabrielvasco906@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^7.1"
+    }
+}
