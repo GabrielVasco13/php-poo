@@ -4,9 +4,7 @@ use Gabriel\PhpPoo\Pessoa;
 
 require __DIR__ . '/vendor/autoload.php';
 
-$pessoaFisica = new Pessoa();
-
-$pessoaFisica->setAll(
+$pessoa1 = new Pessoa(
     'Gabriel',
     "jorge@gmail.com",
     "Rua 1",
@@ -14,5 +12,14 @@ $pessoaFisica->setAll(
     25,
 );
 
+$pessoa2 = new Pessoa(
+    'Jorge',
+    'jorgijnhogamepenes@email.com',
+    'Rua 2',
+    987654321,
+    30,
+);
 
-dump($pessoaFisica);
+
+dump($pessoa1);
+dump($pessoa2);

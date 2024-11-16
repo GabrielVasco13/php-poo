@@ -13,7 +13,11 @@ class Pessoa
     private int $phone;
     private int $age;
 
-    public function setAll($name, $email, $address, $phone, $age)
+    public function __construct($name, $email, $address, $phone, $age) {
+        $this -> setAll($name, $email, $address, $phone, $age);
+    }
+
+    private function setAll($name, $email, $address, $phone, $age)
     {
         $this->name = $name;
         $this->email = $email;
